@@ -1,5 +1,5 @@
-<%@ include file="common/header.jspf"%>
-<%@ include file="../common/navigation.jspf"%>
+<%@ include file="/resources/common/header.jspf"%>
+<%@ include file="/resources/common/navigation.jspf"%>
 
 
 <div class="container">
@@ -93,7 +93,7 @@
 	</table>
 </div>
 
-<%@ include file="common/footer.jspf"%>
+<%@ include file="/resources/common/footer.jspf"%>
 <script>
 $(document).ready(function () {
     var url = window.location;
